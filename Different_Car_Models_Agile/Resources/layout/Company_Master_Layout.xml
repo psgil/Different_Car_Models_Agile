@@ -1,0 +1,73 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" android:background="@drawable/background">
+  
+
+    <TextView
+        android:text="MASTER COMPANY"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:gravity="center_horizontal" />
+    
+    <TextView
+        android:text="ID"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_v_master_company_id"
+        android:gravity="center_horizontal"  />
+    
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_master_company"
+        android:hint="MASTER COMPANY" />
+
+      <Button
+        android:text="SAVE MASTER COMPANY" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_save_master_company" android:background="@android:color/white" android:textColor="@android:color/holo_orange_light" />
+  
+    
+    <Button
+        android:text="DELETE MASTER COMPANY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_delete_master_company" android:background="@android:color/white" android:textColor="@android:color/holo_orange_light" />
+
+     <Button
+        android:text="UPDATE MASTER COMPANY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_update_master_company" android:background="@android:color/white" android:textColor="@android:color/holo_orange_light" />
+
+    <Button
+        android:text="NEW MASTER COMPANY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_new_master_company" android:background="@android:color/white" android:textColor="@android:color/holo_orange_light" />
+
+         <Button
+        android:text="SET MODEL RATE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_set_model_rate" android:background="@android:color/white" android:textColor="@android:color/holo_orange_light" />
+
+          <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_show" android:minHeight="10dp" />
+</LinearLayout>
+</RelativeLayout>

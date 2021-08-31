@@ -1,0 +1,114 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" android:background="@drawable/background">
+  
+
+    <TextView
+        android:text=" SET MODEL RATE"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:gravity="center_horizontal" />
+    
+    <TextView
+        android:text="ID"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_v_model_id"
+        android:gravity="center_horizontal"   />
+
+     <TextView
+        android:text="CID"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_master_company_id"
+        android:gravity="center_horizontal"   />
+    
+
+     <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_show_master_company" android:minHeight="10dp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_model_name"
+        android:hint="Model Name" />
+
+
+     <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_Rate"
+        android:hint="Model Rate" />
+
+     
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_show_model" android:minHeight="10dp" />
+    
+   
+       
+    
+ 
+   
+        <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView1" android:visibility="invisible" />
+
+         <TableLayout
+           android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+         <TableRow  android:layout_width="match_parent" android:layout_height="wrap_content">
+ <Button
+        android:text="NEW MODEL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_new_model" android:background="@android:color/white" android:textColor="@android:color/holo_orange_light" android:padding="3dip" />
+
+                 <Button
+        android:text="SAVE MODEL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_save_model" android:background="@android:color/white" android:textColor="@android:color/holo_orange_light" android:padding="3dip"/>
+
+                 <Button
+        android:text="UPDATE MODEL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_update_model" android:background="@android:color/white" android:textColor="@android:color/holo_orange_light" android:padding="3dip"/>
+                 <Button
+        android:text="DELETE MODEL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_delete_model" android:background="@android:color/white" android:textColor="@android:color/holo_orange_light" android:padding="3dip"/>
+        </TableRow>
+     </TableLayout>
+
+
+
+
+</LinearLayout>
+   
+</RelativeLayout>
